@@ -1,0 +1,92 @@
+/* src/components/TravelPlanner/DailySchedule/DailySchedule.css */
+.daily-schedule {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .schedule-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .schedule-header h2 {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin: 0;
+  }
+  
+  .schedule-date {
+    color: #718096;
+    font-size: 1rem;
+  }
+  
+  .schedule-timeline {
+    position: relative;
+  }
+  
+  .timeline-item {
+    display: flex;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .timeline-time {
+    width: 120px;
+    color: #4a5568;
+    font-weight: 500;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .time-start {
+    font-weight: 600;
+    color: #2d3748;
+  }
+  
+  .time-end {
+    font-size: 0.875rem;
+    color: #718096;
+  }
+  
+  .timeline-content {
+    flex: 1;
+    background-color: #f7fafc;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-left: 1rem;
+    position: relative;
+  }
+  
+  .timeline-content::before {
+    content: '';
+    position: absolute;
+    left: -1rem;
+    top: 50%;
+    width: 1rem;
+    height: 2px;
+    background-color: #e2e8f0;
+  }
+  
+  .timeline-activity {
+    font-weight: 500;
+    color: #2d3748;
+    margin-bottom: 0.25rem;
+  }
+  
+  .timeline-duration {
+    font-size: 0.875rem;
+    color: #718096;
+  }
